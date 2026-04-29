@@ -26,6 +26,6 @@ Acesse : 'http://127.0.0.1:5000'
 
 ## Tecnologias 
 
-Back-End | Python + Flask |
-Front-End | HTML + CSS |
-Comunicação | Javascript (fetch) |
+- Back-End | Python + Flask |
+- Front-End | HTML + CSS |
+- Comunicação | Javascript (fetch) |
