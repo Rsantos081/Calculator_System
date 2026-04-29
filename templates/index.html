@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+<body>
+
+    <div class="calculadora">
+        <div class="display">
+            <span id="expressao"></span>
+            <span id="resultado">0</span>
+        </div>
+
+        <div class="botoes">
+            <button class="btn limpar" onclick="limpar()">C</button>
+            <button class="btn operador" onclick="adicionar('%')">%</button>
+            <button class="btn operador" onclick="adicionar('/')">÷</button>
+            <button class="btn operador" onclick="apagar()">⌫</button>
+
+            <button class="btn numero" onclick="adicionar('7')">7</button>
+            <button class="btn numero" onclick="adicionar('8')">8</button>
+            <button class="btn numero" onclick="adicionar('9')">9</button>
+            <button class="btn operador" onclick="adicionar('*')">×</button>
+
+            <button class="btn numero" onclick="adicionar('4')">4</button>
+            <button class="btn numero" onclick="adicionar('5')">5</button>
+            <button class="btn numero" onclick="adicionar('6')">6</button>
+            <button class="btn operador" onclick="adicionar('-')">−</button>
+
+            <button class="btn numero" onclick="adicionar('1')">1</button>
+            <button class="btn numero" onclick="adicionar('2')">2</button>
+            <button class="btn numero" onclick="adicionar('3')">3</button>
+            <button class="btn operador" onclick="adicionar('+')">+</button>
+
+            <button class="btn numero" onclick="adicionar('0')">0</button>
+            <button class="btn numero" onclick="adicionar('.')">.</button>
+            <button class="btn igual" onclick="calcular()">=</button>
+        </div>
+    </div>
+
+    <script src="{{ url_for('static', filename='js/script.js') }}"></script>
+</body>
+</html>
