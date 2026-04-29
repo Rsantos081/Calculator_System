@@ -1,16 +1,16 @@
 ## System Calculator
-- Calculadora web desenvolvida com Python(Flask) no Back-end e HTML/CSS/JS no Front-end.
+- Calculadora web desenvolvida com **Python(Flask)** no Back-end e **HTML/CSS/JS** no Front-end.
 
 ## Estrutura
 system_calculator/
-├── main.py
-├── templates/
-│   └── index.html
-└── static/
-├── css/
-│   └── style.css
-└── js/
-└── script.js
+- main.py
+- templates/
+-  index.html
+- static
+- css/
+-  style.css
+- js/ 
+- script.js
 
 ## Como Funciona 
 1. O usuário clica nos botões → JS monta a expressão
