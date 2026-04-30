@@ -5,12 +5,12 @@
 system_calculator/
 - main.py
 - templates/
--    index.html
+-     index.html
 - static
 -    css/
 -      style.css
 - js/ 
--    script.js
+-     script.js
 
 ## Como Funciona 
 1. O usuário clica nos botões → JS monta a expressão
