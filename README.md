@@ -3,8 +3,8 @@
 
 ## Estrutura do Projeto
 system_calculator/
-- main.py
-- templates/
+- **main.py**
+- **templates/**
 -     index.html
 - static
 -    css/
